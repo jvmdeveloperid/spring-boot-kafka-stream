@@ -2,7 +2,7 @@
 
 
 
-![Diagram](images/diagram.png "Diagram")
+![Diagram](images/diagram.PNG "Diagram")
 
 Repository ini adalah sebagai bahan untuk mempelajari konsep dan cara kerja event stream architecture dengan real time case
 
@@ -55,6 +55,6 @@ Setelah anda menjalankan **zookeeper** dan **kafka server** nya buatlah dua topi
 
 ### **ScreenShoot**
 
-![app-producer](images/app-processor.png "Producer")
+![app-producer](images/app-processor.PNG"Producer")
 
-![app-consumer](images/app-consumer.png "app-consumer")
+![app-consumer](images/app-consumer.PNG "app-consumer")

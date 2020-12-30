@@ -1,0 +1,19 @@
+package id.ten.kafka.appprocessor;
+
+import org.apache.kafka.streams.kstream.KStream;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import java.util.function.Function;
+
+@Configuration
+public class KafkaProcessor {
+
+    @Bean
+    public Function<KStream<String, Long>, KStream<String, Long>> evenNumberSquareProcessor() {
+        return kstream -> kstream
+                .filter((k, v) -> v % 2 == 0)
+                .peek((k, v) -> System.out.println("Squaring Even : " + v))
+                .mapValues(v -> v * v);
+    }
+}

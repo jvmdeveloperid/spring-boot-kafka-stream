@@ -1,0 +1,26 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+app-consumer/target/
+app-consumer/.mvn/wrapper/maven-wrapper.jar
+app-consumer/**/src/main/**/target/
+app-consumer/**/src/test/**/target/
+
+app-processor/target/
+app-processor/.mvn/wrapper/maven-wrapper.jar
+app-processor/**/src/main/**/target/
+app-processor/**/src/test/**/target/
+
+app-producer/target/
+app-producer/.mvn/wrapper/maven-wrapper.jar
+app-producer/**/src/main/**/target/
+app-producer/**/src/test/**/target/
